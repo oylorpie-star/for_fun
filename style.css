@@ -151,47 +151,47 @@ body {
 }
 
 .message-1 {
-    animation: fadeInUp 0.8s ease-out 0.5s forwards;
+    animation: fadeInUp 0.6s ease-out 0.3s forwards;
 }
 
 .message-2 {
-    animation: fadeInUp 0.8s ease-out 1.3s forwards;
+    animation: fadeInUp 0.6s ease-out 0.9s forwards;
 }
 
 .message-3 {
-    animation: fadeInUp 0.8s ease-out 2.1s forwards;
+    animation: fadeInUp 0.6s ease-out 1.5s forwards;
 }
 
 .message-4 {
-    animation: fadeInUp 0.8s ease-out 2.9s forwards;
+    animation: fadeInUp 0.6s ease-out 2.1s forwards;
 }
 
 .message-5 {
-    animation: fadeInUp 0.8s ease-out 3.7s forwards;
+    animation: fadeInUp 0.6s ease-out 2.7s forwards;
 }
 
 .message-6 {
-    animation: fadeInUp 0.8s ease-out 4.5s forwards;
+    animation: fadeInUp 0.6s ease-out 3.3s forwards;
 }
 
 .message-7 {
-    animation: fadeInUp 0.8s ease-out 5.3s forwards;
+    animation: fadeInUp 0.6s ease-out 3.9s forwards;
 }
 
 .message-8 {
-    animation: fadeInUp 0.8s ease-out 6.1s forwards;
+    animation: fadeInUp 0.6s ease-out 4.5s forwards;
 }
 
 .message-9 {
-    animation: fadeInUp 0.8s ease-out 6.9s forwards;
+    animation: fadeInUp 0.6s ease-out 5.1s forwards;
 }
 
 .message-10 {
-    animation: fadeInUp 0.8s ease-out 7.7s forwards;
+    animation: fadeInUp 0.6s ease-out 5.7s forwards;
 }
 
 .message-11 {
-    animation: fadeInUp 0.8s ease-out 8.5s forwards;
+    animation: fadeInUp 0.6s ease-out 6.3s forwards;
 }
 
 @keyframes fadeInUp {
@@ -306,7 +306,7 @@ body {
 
 .fade-in-late {
     opacity: 0;
-    animation: fadeIn 1s ease-out 9.5s forwards;
+    animation: fadeIn 1s ease-out 4s forwards;
 }
 
 @keyframes fadeIn {
@@ -331,7 +331,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
     opacity: 0;
-    animation: fadeIn 0.8s ease-out 9.5s forwards;
+    animation: fadeIn 0.8s ease-out 4s forwards;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
