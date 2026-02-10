@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مستقبلنا ✨</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .future-section {
+            background: white;
+            border-radius: 20px;
+            padding: 35px;
+            margin: 25px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        .future-section:nth-child(1) { animation-delay: 0.2s; }
+        .future-section:nth-child(2) { animation-delay: 0.4s; }
+        .future-section:nth-child(3) { animation-delay: 0.6s; }
+        .future-section:nth-child(4) { animation-delay: 0.8s; }
+        .future-section:nth-child(5) { animation-delay: 1s; }
+        
+        .future-icon {
+            font-size: 3.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .future-title {
+            font-size: 1.6em;
+            color: #764ba2;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .future-text {
+            font-size: 1.3em;
+            color: #444;
+            line-height: 2;
+            text-align: center;
+        }
+        
+        .dream-list {
+            margin-top: 20px;
+            padding-right: 0;
+            list-style: none;
+        }
+        
+        .dream-item {
+            font-size: 1.2em;
+            color: #555;
+            margin: 15px 0;
+            padding-right: 30px;
+            position: relative;
+        }
+        
+        .dream-item:before {
+            content: "✓";
+            position: absolute;
+            right: 0;
+            color: #f5576c;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        
+        .timeline {
+            background: linear-gradient(to bottom, #667eea, #764ba2);
+            padding: 40px;
+            border-radius: 20px;
+            color: white;
+            margin-top: 30px;
+        }
+        
+        .timeline-title {
+            font-size: 1.8em;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        
+        .timeline-item {
+            margin: 25px 0;
+            padding-right: 40px;
+            border-right: 3px solid white;
+            position: relative;
+        }
+        
+        .timeline-item:before {
+            content: "💫";
+            position: absolute;
+            right: -15px;
+            font-size: 1.5em;
+        }
+        
+        .timeline-step {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-desc {
+            font-size: 1.1em;
+            opacity: 0.95;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            transition: all 0.3s;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts-background">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+
+        <div class="card">
+            <h1 class="title">
+                <span class="name">مستقبلنا المشرق</span>
+                <span class="heart-emoji">✨</span>
+            </h1>
+
+            <div class="future-section">
+                <div class="future-icon">💍</div>
+                <div class="future-title">الزواج في الحلال</div>
+                <div class="future-text">
+                    أول حاجة كنتمنى نحققها هي نتزوجك في الحلال قدام الله و الناس. نديرو عرس حلو و نبداو حياتنا الجديدة مع بعضياتنا. هادي أكبر أمنية عندي.
+                </div>
+            </div>
+
+            <div class="future-section">
+                <div class="future-icon">🏡</div>
+                <div class="future-title">دارنا</div>
+                <div class="future-text">
+                    كنتخيل الدار ديالنا... مكان دافئ فيه السعادة و المحبة. كل ركن فيه غادي يكون عامر بالذكريات الحلوة. أنا و نتي كنبنيو عشنا مع بعضياتنا.
+                </div>
+            </div>
+
+            <div class="future-section">
+                <div class="future-icon">👨‍👩‍👧‍👦</div>
+                <div class="future-title">عائلتنا</div>
+                <div class="future-text">
+                    إن شاء الله ربي يرزقنا بدرية صالحة. نربيوهم على المحبة و الأخلاق. نشوفك أم رائعة و أنا نكون أحسن أب. عائلة سعيدة و متفاهمة.
+                </div>
+            </div>
+
+            <div class="future-section">
+                <div class="future-icon">🌍</div>
+                <div class="future-title">المغامرات ديالنا</div>
+                <div class="future-text">
+                    أشياء كنتمنى نديروها مع بعضياتنا:
+                    <ul class="dream-list">
+                        <li class="dream-item">نسافرو و نشوفو العالم مع بعضياتنا</li>
+                        <li class="dream-item">نمشيو للعمرة و الحج إن شاء الله</li>
+                        <li class="dream-item">نقضيو ليالي تحت النجوم كنهضرو على أحلامنا</li>
+                        <li class="dream-item">نديرو تقاليد خاصة بينا</li>
+                        <li class="dream-item">نعيشو كل لحظة بفرحة و حب</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="future-section">
+                <div class="future-icon">💕</div>
+                <div class="future-title">حبنا الأبدي</div>
+                <div class="future-text">
+                    و فوق كل شيء، كنتمنى حبنا يبقى قوي و ينمو كل يوم. نكونو الدعم ديال بعضياتنا في الفرح و في الحزن. نشيخو مع بعضياتنا و نبقاو يد في يد حتى آخر لحظة.
+                </div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-title">🎯 خطة المستقبل</div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-step">المرحلة الأولى: اللقاء</div>
+                    <div class="timeline-desc">أول لقاء حقيقي بيناتنا، نشوفو بعضياتنا و نتأكدو من حبنا</div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-step">المرحلة الثانية: الخطوبة</div>
+                    <div class="timeline-desc">نطلبك رسمياً و نبداو التحضير لحياتنا المشتركة</div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-step">المرحلة الثالثة: الزواج</div>
+                    <div class="timeline-desc">يوم العرس و بداية الحياة الجديدة إن شاء الله</div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-step">المرحلة الرابعة: بناء المستقبل</div>
+                    <div class="timeline-desc">دارنا، عائلتنا، و كل الأحلام اللي غادي نحققوها مع بعضياتنا</div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-step">المرحلة الأبدية: الحب</div>
+                    <div class="timeline-desc">حب ما غاديش ينتاهي، مع بعضياتنا للأبد ♾️</div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="index.html" class="back-btn">← الرجوع للصفحة الرئيسية</a>
+            </div>
+        </div>
+
+        <div class="footer fade-in-late">
+            <p>مستقبل مشرق إن شاء الله ✨</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

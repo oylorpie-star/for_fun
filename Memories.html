@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ذكرياتنا 📸</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .memory-card {
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            margin: 25px 0;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            opacity: 0;
+            animation: fadeInScale 0.6s ease-out forwards;
+        }
+        
+        .memory-card:nth-child(1) { animation-delay: 0.1s; }
+        .memory-card:nth-child(2) { animation-delay: 0.3s; }
+        .memory-card:nth-child(3) { animation-delay: 0.5s; }
+        .memory-card:nth-child(4) { animation-delay: 0.7s; }
+        .memory-card:nth-child(5) { animation-delay: 0.9s; }
+        .memory-card:nth-child(6) { animation-delay: 1.1s; }
+        
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        .memory-icon {
+            font-size: 3em;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .memory-title {
+            font-size: 1.4em;
+            color: #764ba2;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        
+        .memory-text {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.9;
+            text-align: center;
+        }
+        
+        .placeholder-text {
+            font-style: italic;
+            color: #999;
+            font-size: 1em;
+            margin-top: 10px;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            transition: all 0.3s;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts-background">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+
+        <div class="card">
+            <h1 class="title">
+                <span class="name">ذكرياتنا الحلوة</span>
+                <span class="heart-emoji">📸</span>
+            </h1>
+
+            <div class="memory-card">
+                <div class="memory-icon">💬</div>
+                <div class="memory-title">أول مرة هضرنا</div>
+                <div class="memory-text">
+                    ذاك اليوم اللي بدا فيه كل شيء... اللحظة اللي سمعت فيها صوتك لأول مرة و حسيت بلي لقيت اللي كنت كنقلب عليه
+                </div>
+                <div class="placeholder-text">(ممكن تبدل هنا بالذكرى الحقيقية ديالكم)</div>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-icon">💕</div>
+                <div class="memory-title">أول مرة قلت ليك نبغيك</div>
+                <div class="memory-text">
+                    الكلمات اللي طلعو من قلبي مباشرة... و اللحظة اللي قلتي ليا بلي نتا كدا نبغيني
+                </div>
+                <div class="placeholder-text">(ممكن تضيف تفاصيل هاد اللحظة الجميلة)</div>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-icon">😂</div>
+                <div class="memory-title">أحلى ضحكة</div>
+                <div class="memory-text">
+                    كل المرات اللي ضحكنا فيهم مع بعضياتنا حتى وجعتنا كروشنا... صوت ضحكتك هو أحلى موسيقى عندي
+                </div>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-icon">🌙</div>
+                <div class="memory-title">السهرات ديالنا</div>
+                <div class="memory-text">
+                    الليالي اللي قعدنا فيها كنهضرو حتى الصبح... كنحكيو على كل شيء و ما كنحسوش بالوقت كيمشي
+                </div>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-icon">💝</div>
+                <div class="memory-title">أجمل لحظة</div>
+                <div class="memory-text">
+                    كل لحظة معاك هي أجمل لحظة... لكن خصوصاً الأوقات اللي كنحس فيها بلي أنا و نتي ضد العالم كلو
+                </div>
+            </div>
+
+            <div class="memory-card">
+                <div class="memory-icon">✨</div>
+                <div class="memory-title">الذكريات الجاية</div>
+                <div class="memory-text">
+                    و أحلى الذكريات باقي ما جاتش... اللحظة اللي غادي نتلاقاو فيها، اللحظة اللي غادي نتزوجو، و كل الحياة اللي غادي نعيشوها مع بعضياتنا
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="index.html" class="back-btn">← الرجوع للصفحة الرئيسية</a>
+            </div>
+        </div>
+
+        <div class="footer fade-in-late">
+            <p>كل يوم معاك ذكرى جديدة 📸</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

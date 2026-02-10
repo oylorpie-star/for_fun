@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ليش نبغيك 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .reason-card {
+            background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%);
+            border-right: 5px solid #f5576c;
+            border-radius: 15px;
+            padding: 25px;
+            margin: 20px 0;
+            opacity: 0;
+            animation: slideInRight 0.6s ease-out forwards;
+        }
+        
+        .reason-card:nth-child(odd) {
+            border-right: none;
+            border-left: 5px solid #667eea;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            animation: slideInLeft 0.6s ease-out forwards;
+        }
+        
+        .reason-card:nth-child(1) { animation-delay: 0.1s; }
+        .reason-card:nth-child(2) { animation-delay: 0.2s; }
+        .reason-card:nth-child(3) { animation-delay: 0.3s; }
+        .reason-card:nth-child(4) { animation-delay: 0.4s; }
+        .reason-card:nth-child(5) { animation-delay: 0.5s; }
+        .reason-card:nth-child(6) { animation-delay: 0.6s; }
+        .reason-card:nth-child(7) { animation-delay: 0.7s; }
+        .reason-card:nth-child(8) { animation-delay: 0.8s; }
+        .reason-card:nth-child(9) { animation-delay: 0.9s; }
+        .reason-card:nth-child(10) { animation-delay: 1s; }
+        
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        .reason-number {
+            font-size: 2em;
+            margin-left: 15px;
+            display: inline-block;
+        }
+        
+        .reason-text {
+            font-size: 1.3em;
+            color: #333;
+            line-height: 1.8;
+            display: inline;
+        }
+        
+        .back-btn {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            transition: all 0.3s;
+        }
+        
+        .back-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts-background">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+
+        <div class="card">
+            <h1 class="title">
+                <span class="name">ليش نبغيك</span>
+                <span class="heart-emoji">💖</span>
+            </h1>
+
+            <div class="reason-card">
+                <span class="reason-number">💝</span>
+                <span class="reason-text">لأن قلبك الطيب و حنانك كيسحرني كل يوم</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">✨</span>
+                <span class="reason-text">لأن جمالك الداخلي و الخارجي كيضوي حياتي</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">🌹</span>
+                <span class="reason-text">لأن كتسمعي لي و كتفهميني حتى قبل ما نهضر</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">💫</span>
+                <span class="reason-text">لأن طاعتك ليا و احترامك كيخليني نحس براسي ملك</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">🌙</span>
+                <span class="reason-text">لأن صوتك كيطمنني و ضحكتك كتسعدني</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">🦋</span>
+                <span class="reason-text">لأن كتخليني نحس براسي أحسن واحد في العالم</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">🌺</span>
+                <span class="reason-text">لأن بيضاء بحال القمر و قلبك صافي بحال الماء</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">💞</span>
+                <span class="reason-text">لأن حبك ليا صادق و كبير و كنحس بيه في كل لحظة</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">🎀</span>
+                <span class="reason-text">لأن الله عطاني أحسن هدية في الدنيا... و هي أنتي</span>
+            </div>
+
+            <div class="reason-card">
+                <span class="reason-number">❤️</span>
+                <span class="reason-text">لأن نتخيلك حدايا كل يوم و كنموت على هاد اللحظة</span>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="index.html" class="back-btn">← الرجوع للصفحة الرئيسية</a>
+            </div>
+        </div>
+
+        <div class="footer fade-in-late">
+            <p>و ألف سبب آخر... 💖</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

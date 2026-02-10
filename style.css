@@ -155,23 +155,43 @@ body {
 }
 
 .message-2 {
-    animation: fadeInUp 0.8s ease-out 1.5s forwards;
+    animation: fadeInUp 0.8s ease-out 1.3s forwards;
 }
 
 .message-3 {
-    animation: fadeInUp 0.8s ease-out 2.5s forwards;
+    animation: fadeInUp 0.8s ease-out 2.1s forwards;
 }
 
 .message-4 {
-    animation: fadeInUp 0.8s ease-out 3.5s forwards;
+    animation: fadeInUp 0.8s ease-out 2.9s forwards;
 }
 
 .message-5 {
-    animation: fadeInUp 0.8s ease-out 4.5s forwards;
+    animation: fadeInUp 0.8s ease-out 3.7s forwards;
 }
 
 .message-6 {
-    animation: fadeInUp 0.8s ease-out 5.5s forwards;
+    animation: fadeInUp 0.8s ease-out 4.5s forwards;
+}
+
+.message-7 {
+    animation: fadeInUp 0.8s ease-out 5.3s forwards;
+}
+
+.message-8 {
+    animation: fadeInUp 0.8s ease-out 6.1s forwards;
+}
+
+.message-9 {
+    animation: fadeInUp 0.8s ease-out 6.9s forwards;
+}
+
+.message-10 {
+    animation: fadeInUp 0.8s ease-out 7.7s forwards;
+}
+
+.message-11 {
+    animation: fadeInUp 0.8s ease-out 8.5s forwards;
 }
 
 @keyframes fadeInUp {
@@ -197,6 +217,88 @@ body {
     background-clip: text;
 }
 
+/* Signature styling */
+.signature {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.signature-text {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #764ba2;
+    font-weight: 600;
+}
+
+/* Icons section */
+.icons-section {
+    margin-top: 40px;
+    padding-top: 30px;
+    border-top: 2px solid #eee;
+}
+
+.icons-title {
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #764ba2;
+    font-weight: 600;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.icon-link {
+    text-decoration: none;
+}
+
+.icon-box {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    border-radius: 20px;
+    padding: 25px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(245, 87, 108, 0.3);
+}
+
+.icon-box:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(245, 87, 108, 0.5);
+}
+
+.icon-box:active {
+    transform: translateY(-2px) scale(1.02);
+}
+
+.icon {
+    font-size: 2.5em;
+    display: block;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite;
+}
+
+.icon-label {
+    display: block;
+    color: white;
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
 /* Fade in animations */
 .fade-in {
     animation: fadeIn 1s ease-out;
@@ -204,7 +306,7 @@ body {
 
 .fade-in-late {
     opacity: 0;
-    animation: fadeIn 1s ease-out 6.5s forwards;
+    animation: fadeIn 1s ease-out 9.5s forwards;
 }
 
 @keyframes fadeIn {
@@ -229,7 +331,7 @@ body {
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
     opacity: 0;
-    animation: fadeIn 0.8s ease-out 6.5s forwards;
+    animation: fadeIn 0.8s ease-out 9.5s forwards;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -267,5 +369,18 @@ body {
     
     .big-text {
         font-size: 1.2em;
+    }
+    
+    .icon-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .icon {
+        font-size: 2em;
+    }
+    
+    .icon-label {
+        font-size: 0.85em;
     }
 }
